@@ -77,7 +77,7 @@
   },
   "12": {
     "inputs": {
-      "upscale_method": "bilinear",
+      "upscale_method": "bislerp",
       "width": 2048,
       "height": 2048,
       "crop": "disabled",
