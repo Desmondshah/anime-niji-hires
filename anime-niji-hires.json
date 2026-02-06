@@ -23,7 +23,7 @@
   },
   "3": {
     "inputs": {
-      "text": "masterpiece, best quality, absurdres, 1girl, Makotono Aoi, sensitive, year 2025, indoors, teacher's room, solo, tomboy, very short hair, blue hair, parted bangs, very handsome face, yellow eyes, large breasts, a adult tomboy girl with very boyish handsome shortcut blue hair with (parted bangs:1.2) and pixie cut and very handsome face and yellow eyes and perfect female body and large breasts wearing teacher suit and tight miniskirt and shirt and pantystocking and high heels and sitting on chair with crossed legs and closed mouth, soft cinematic lighting, anime, (sharp focus:1.1), (vibrant colors:1.1)",
+      "text": "masterpiece, best quality, absurdres, 1girl, school uniform, standing in empty hallway, blonde hair, golden lighting from windows, soft cinematic lighting, anime, (sharp focus:1.1), (vibrant colors:1.1)",
       "clip": [
         "1",
         1
@@ -36,7 +36,7 @@
   },
   "4": {
     "inputs": {
-      "seed": 208414574609287,
+      "seed": 654042838618490,
       "steps": 30,
       "cfg": 6,
       "sampler_name": "dpmpp_2m_sde",
@@ -93,7 +93,7 @@
   },
   "13": {
     "inputs": {
-      "seed": 745659293098033,
+      "seed": 436524140286324,
       "steps": 15,
       "cfg": 6,
       "sampler_name": "dpmpp_2m_sde",
@@ -142,7 +142,7 @@
       "guide_size": 384,
       "guide_size_for": true,
       "max_size": 1024,
-      "seed": 524173439679483,
+      "seed": 329761199545536,
       "steps": 20,
       "cfg": 8,
       "sampler_name": "euler",
@@ -219,7 +219,7 @@
       "guide_size": 768,
       "guide_size_for": true,
       "max_size": 1024,
-      "seed": 783994903787850,
+      "seed": 1060759095653190,
       "steps": 20,
       "cfg": 8,
       "sampler_name": "euler",
@@ -286,19 +286,6 @@
       "title": "FaceDetailer"
     }
   },
-  "22": {
-    "inputs": {
-      "filename_prefix": "anime_hires",
-      "images": [
-        "21",
-        0
-      ]
-    },
-    "class_type": "SaveImage",
-    "_meta": {
-      "title": "Save Image"
-    }
-  },
   "23": {
     "inputs": {
       "model_name": "segm/person_yolov8m-seg.pt"
@@ -326,6 +313,19 @@
     "class_type": "SAMLoader",
     "_meta": {
       "title": "SAMLoader (Impact)"
+    }
+  },
+  "27": {
+    "inputs": {
+      "filename_prefix": "ComfyUI",
+      "images": [
+        "21",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Save Image"
     }
   }
 }
